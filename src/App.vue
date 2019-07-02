@@ -1,26 +1,29 @@
 <template>
-  <div id="app">
-    <el-container>
-      <el-header><my-header/></el-header>
-      <el-main><mybody/></el-main>
-      <el-footer><myfooter></myfooter></el-footer>
-    </el-container>
-<!--    <img src="./assets/logo.png">-->
-<!--    <router-view/>-->
-  </div>
+  <el-row type="flex" class="row-bg" justify="center">
+    <el-col :span="18">
+      <el-container style="margin: 0px;">
+        <el-header height="auto"><my-header/></el-header>
+        <el-main height="auto" ><RouterView></RouterView></el-main>
+        <el-footer height="auto"><my-footer></my-footer></el-footer>
+      </el-container>
+      <!--    <img src="./assets/logo.png">-->
+      <!--    <router-view/>-->
+    </el-col>
+  </el-row>
 </template>
 
 <script>
+
 import MyHeader from '@/views/MyHeader'
-import Body from '@/views/Body'
-import Footer from '@/views/Footer'
+import MyBody from '@/views/MyBody'
+import MyFooter from '@/views/MyFooter'
 
 export default {
   name: 'App',
   components: {
-    MyHeader,
-    'mybody': Body,
-    'myfooter': Footer
+    'my-header': MyHeader,
+    'my-body': MyBody,
+    'my-footer': MyFooter
   }
 }
 </script>
