@@ -12,7 +12,7 @@
           <el-menu-item index="/" style="margin: 0px 20px 0px 80px">首页</el-menu-item>
           <el-menu-item index="/Cul" style="margin: 0px 35px 0px 20px">学生培养</el-menu-item>
           <el-menu-item index="/Reg" style="margin: 0px 35px 0px 20px">规章制度</el-menu-item>
-          <el-menu-item index="/DataTable" style="margin: 0px 35px 0px 20px">团队成员</el-menu-item>
+          <el-menu-item index="/Mem" style="margin: 0px 35px 0px 20px">团队成员</el-menu-item>
           <el-menu-item index="/Act" style="margin: 0px 35px 0px 20px">实验室风采</el-menu-item>
           <el-menu-item index="/Res" style="margin: 0px 35px 0px 20px">研究方向</el-menu-item>
           <el-submenu>

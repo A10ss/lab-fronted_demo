@@ -9,6 +9,7 @@ import Project from '@/views/Project'
 import Reward from '@/views/Reward'
 import Thesis from '@/views/Thesis'
 import Patent from '@/views/Patent'
+import Members from '@/views/Members'
 
 Vue.use(Router)
 
@@ -58,6 +59,11 @@ export default new Router({
       path: '/The',
       name: '论文巨著',
       component: Thesis
+    },
+    {
+      path: '/Mem',
+      name: '团队成员',
+      component: Members
     }
   ]
 })
